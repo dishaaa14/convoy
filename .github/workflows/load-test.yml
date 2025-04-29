@@ -1,10 +1,4 @@
-name: Run Load Test
-
-on:
-  schedule:
-    - cron: '30 14 * * *'
-    - cron: '30 18 * * *'
-    - cron: '30 21 * * *'
+name: Run Load 
 
   workflow_dispatch:
     inputs:
