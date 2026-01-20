@@ -1,4 +1,4 @@
-FROM alpine:3.20.2
+FROM alpine:3.23.2
 
 # Define a build-time argument
 ARG IMAGE_SHA
